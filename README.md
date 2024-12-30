@@ -2,7 +2,7 @@ I am working on creating a very effective and popular tool that I hope people al
 
 Age: 22 years old
 
-Culture: Mexican Representing from Guanjuanto 
+Culture: Mexican representing from Guanjuanto 
 
 Passion: Cybersecurity enthusiast
 
