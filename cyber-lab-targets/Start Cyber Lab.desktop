@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Start Cyber Lab
+Comment=Start the Juice Shop + DVWA practice targets
+# Assumes this folder lives at:  ~/cyber-lab-targets
+# (If you put it somewhere else, edit the two paths below.)
+Exec=x-terminal-emulator -e bash -lc "$HOME/cyber-lab-targets/start-lab.sh"
+Icon=utilities-terminal
+Path=/root
+Terminal=false
+Categories=Education;Security;

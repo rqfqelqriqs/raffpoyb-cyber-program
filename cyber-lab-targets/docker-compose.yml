@@ -1,0 +1,29 @@
+# Cyber lab practice targets — runs INSIDE your Kali VM.
+#
+# Two classic, intentionally-vulnerable apps for learning. They are meant to be
+# attacked; that is the whole point. Keep them on this isolated lab machine and
+# never expose these ports to a real network.
+#
+#   OWASP Juice Shop -> http://localhost:3000   (modern web app, OWASP Top 10)
+#   DVWA             -> http://localhost:8080   (Damn Vulnerable Web App)
+#
+# Brought up/down for you by start-lab.sh / stop-lab.sh (just double-click).
+
+services:
+  juice-shop:
+    image: bkimminich/juice-shop:latest
+    container_name: lab_juice_shop
+    ports:
+      - "127.0.0.1:3000:3000"      # bound to localhost only = stays on this VM
+    restart: unless-stopped
+
+  dvwa:
+    image: ghcr.io/digininja/dvwa:latest
+    container_name: lab_dvwa
+    ports:
+      - "127.0.0.1:8080:80"        # bound to localhost only = stays on this VM
+    environment:
+      # DVWA defaults; log in with admin / password, then "Create / Reset Database".
+      - DVWA_USERNAME=admin
+      - DVWA_PASSWORD=password
+    restart: unless-stopped
