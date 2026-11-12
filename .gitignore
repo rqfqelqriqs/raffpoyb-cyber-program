@@ -1,0 +1,12 @@
+# PentestGPT runtime logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local secrets — never commit API keys
+.env

@@ -1,10 +1,18 @@
 # raffpoyb-cyber-program
- _______          _       ________  ________  _______     ___   ____  ____  ______       ______  ____  ____  ______   ________  _______      _______  _______      ___      ______  _______          _       ____    ____  
-|_   __ \        / \     |_   __  ||_   __  ||_   __ \  .'   `.|_  _||_  _||_   _ \    .' ___  ||_  _||_  _||_   _ \ |_   __  ||_   __ \    |_   __ \|_   __ \   .'   `.  .' ___  ||_   __ \        / \     |_   \  /   _| 
-  | |__) |      / _ \      | |_ \_|  | |_ \_|  | |__) |/  .-.  \ \ \  / /    | |_) |  / .'   \_|  \ \  / /    | |_) |  | |_ \_|  | |__) |     | |__) | | |__) | /  .-.  \/ .'   \_|  | |__) |      / _ \      |   \/   |   
-  |  __ /      / ___ \     |  _|     |  _|     |  ___/ | |   | |  \ \/ /     |  __'.  | |          \ \/ /     |  __'.  |  _| _   |  __ /      |  ___/  |  __ /  | |   | || |   ____  |  __ /      / ___ \     | |\  /| |   
- _| |  \ \_  _/ /   \ \_  _| |_     _| |_     _| |_    \  `-'  /  _|  |_    _| |__) | \ `.___.'\   _|  |_    _| |__) |_| |__/ | _| |  \ \_   _| |_    _| |  \ \_\  `-'  /\ `.___]  |_| |  \ \_  _/ /   \ \_  _| |_\/_| |_  
-|____| |___||____| |____||_____|   |_____|   |_____|    `.___.'  |______|  |_______/   `.____ .'  |______|  |_______/|________||____| |___| |_____|  |____| |___|`.___.'  `._____.'|____| |___||____| |____||_____||_____| 
-                                                                                                                                                                                                                           
-Social media account management: disabling, viewing, and accessing user information (e.g., address, names, and locations),Password discovery techniques.
-THIS TOOL IS FOR EDUCATIONAL AND AUTHORIZED USE ONLY. UNAUTHORIZED USE VIOLATES PRIVACY LAWS AND ETHICS AND IS NOT SUPPORTED BY THE DEVELOPER.
+
+An offensive-security LEARNING lab. See README.md for the full guide.
+
+Purpose: build real penetration-testing / ethical-hacking skills against
+systems you own or are explicitly authorized to test — local vulnerable VMs,
+and hosted practice platforms (TryHackMe, Hack The Box, PortSwigger Academy,
+PicoCTF).
+
+THIS PROJECT IS FOR EDUCATION AND AUTHORIZED TESTING ONLY. Only attack machines
+you own or have written permission to test. Unauthorized scanning, access, or
+exploitation of systems you do not control is illegal and is not supported here.
+
+Start with:
+  - README.md         overview
+  - docs/LAB_SETUP.md build a safe, legal lab
+  - docs/ROADMAP.md   structured learning path
+  - docs/TOOLS.md     core tools and legal usage
